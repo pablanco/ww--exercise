@@ -1,0 +1,22 @@
+{
+  "name": "bdb",
+  "version": "1.0.0",
+  "description": "Bob Dylan Discs Board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.5",
+    "ts-node": "^8.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.9",
+    "@types/request-promise": "^4.1.45",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.7.2"
+  }
+}
