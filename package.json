@@ -4,11 +4,14 @@
   "description": "Bob Dylan Discs Board",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pablo Blanco",
   "license": "ISC",
   "dependencies": {
+    "request": "^2.88.0",
     "request-promise": "^4.2.5",
     "ts-node": "^8.5.2"
   },
